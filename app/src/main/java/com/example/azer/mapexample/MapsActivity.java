@@ -36,6 +36,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mapFragment.getMapAsync(this);
         initialize();
         mMap.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
+        ///dfd
 
         /*btn_search.setOnClickListener(new View.OnClickListener() {
             @Override
